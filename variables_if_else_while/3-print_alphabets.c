@@ -17,6 +17,8 @@ putchar(letter);
 letter++;
 }
 
+letter = 'A';
+
 while (letter <= 'Z')
 {
 putchar(letter);
