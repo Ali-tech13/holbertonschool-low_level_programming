@@ -14,7 +14,7 @@ i = 1;
 
 while (i <= 10)
 {
-letter ='a';
+letter = 'a';
 while (letter <= 'z')
 {
 _putchar(letter);
