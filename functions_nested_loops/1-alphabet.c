@@ -1,30 +1,21 @@
 #include "main.h"
-/**
-* print_alphabet - print every letter
-*
-* Return: Void
-**/
-void print_alphabet(void);
-/**
-* main - call the function print_alphabet whit new-line
-*
-* Return: Always 0
-**/
-int main(void)
-{
-print_alphabet();
-_putchar('\n');
-return (0);
-}
 
+/**
+ * print_alphabet - prints the alphabet in lowercase
+ *
+ * Return: void
+ */
 void print_alphabet(void)
 {
-char letter;
-letter = 'a';
+	char letter;
 
-while (letter <= 'z')
-{
-_putchar(letter);
-letter++;
-}
+	letter = 'a';
+
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+
+	_putchar('\n');
 }
