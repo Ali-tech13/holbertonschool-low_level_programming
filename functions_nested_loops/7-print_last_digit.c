@@ -10,13 +10,18 @@
 **/
 int print_last_digit(int n)
 {
+int a;
 if (n >= 0)
 {
 n = n % 10;
+_putchar(n + '0');
+return (n);
 }
 else
 {
-_abs(n);
-n = n % 10;
+a = _abs(n);
+n = a % 10;
+_putchar(n + '0');
+return (n);
 }
 }
