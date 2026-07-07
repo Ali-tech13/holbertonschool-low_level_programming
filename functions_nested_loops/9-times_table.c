@@ -22,13 +22,14 @@ while (row <= 9)
 col = 0;
 while (col <= 9)
 {
-result = row * col;
+result = row *col;
 
 if (col == 0)
 {
 _putchar(result + '0');
 }
-else{
+else
+{
 _putchar(',');
 _putchar(' ');
 
