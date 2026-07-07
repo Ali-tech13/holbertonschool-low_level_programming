@@ -15,7 +15,6 @@ hour = 0;
 min = 0;
 while (hour <= 23)
 {
-_putchar('\n');
 while (min <= 59)
 {
 _putchar((hour / 10) + '0');
@@ -23,6 +22,7 @@ _putchar((hour % 10) + '0');
 _putchar(':');
 _putchar((min / 10) + '0');
 _putchar((min % 10) + '0');
+_putchar('\n');
 min++;
 }
 min = 0;
