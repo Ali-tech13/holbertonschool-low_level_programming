@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * fizz_buzz - program that prints the numbers from 1 to 100,
 * followed by a new line.
@@ -15,16 +16,16 @@ for (i = 0; i < 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-_putchar('FizzBuzz');
+printf("FizzBuzz");
 }
 if (i % 3 == 0)
 {
-_putchar('Fizz');
+printf("Fizz");
 }
 if (i % 5 == 0)
 {
-_putchar('Buzz');
+printf("Buzz");
 }
-_putchar('\n');
+printf('\n');
 }
 }
