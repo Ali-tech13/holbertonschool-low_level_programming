@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* fizz_buzz - program that prints the numbers from 1 to 100,
+* main - program that prints the numbers from 1 to 100,
 * followed by a new line.
 *
 *
@@ -9,7 +9,7 @@
 * Return: void
 *
 **/
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 for (i = 0; i <= 100; i++)
@@ -34,4 +34,5 @@ if (i != 100)
 printf(" ");
 printf("\n");
 }
+return (0);
 }
