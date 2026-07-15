@@ -60,6 +60,7 @@ int main(){
                 printf("B: ");
                 scanf("%d", &num2);
                 result = num1 * num2;
+                break;
             case 4:
                 printf("A: ");
                 scanf("%d", &num1);
@@ -70,6 +71,7 @@ int main(){
                     printf("Error: division by zero");
                 }
                 result = num1 / num2;
+                break;
 
 
         }
