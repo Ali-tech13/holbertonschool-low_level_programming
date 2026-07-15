@@ -29,7 +29,12 @@ int main(){
         scanf("%d", &choice);
         if (choice == 0)
         {
+            printf("Bye!");
             isRunning = false;
+        }
+        else if ( choice > 4)
+        {
+            printf("Invalid choice");
         }
         printf("Enter num1");
         scanf("%d", &num1);
