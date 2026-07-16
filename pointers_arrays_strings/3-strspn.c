@@ -26,11 +26,8 @@ if (s[i] == accept[j])
 {
 count++;
 }
-else
-{
+}
 break;
 }
-}
-}
-return (0);
+return (count);
 }
