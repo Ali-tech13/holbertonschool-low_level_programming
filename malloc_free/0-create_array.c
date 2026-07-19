@@ -16,7 +16,7 @@ if (size == 0)
 {
 return (NULL);
 }
-char *arr = malloc(size * sizeof(char));
+arr = malloc(size * sizeof(char));
 if (arr == NULL)
 {
 return (NULL);
