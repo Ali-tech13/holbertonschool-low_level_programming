@@ -39,6 +39,7 @@ arr[i] = s1[i];
 for (j = 0; j != taken; j++)
 {
 arr[i] = s2[j];
+i++;
 }
 arr[i] = '\0';
 return (arr);
