@@ -43,7 +43,6 @@ for (i = 0; i < len1; i++)
 newOwner[i] = owner[i];
 }
 newOwner[i] = '\0';
-newAge = age;
 
 dog->name = newName;
 dog->owner = newOwner;
