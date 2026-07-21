@@ -18,11 +18,17 @@ if (d->name == NULL)
 {
 printf("Name: nil");
 }
-printf("Name: ", d->name);
-printf("Age: ", d->age);
+else
+{
+printf("Name:%s\n ", d->name);
+}
+printf("Age:%f\n ", d->age);
 if (d->owner == NULL)
 {
 printf("Owner: nil");
 }
-printf("Owner: ", d->owner);
+else
+{
+printf("Owner:%s\n ", d->owner);
+}
 }
