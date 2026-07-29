@@ -20,8 +20,13 @@ for (i = 0; i < n ; i++)
 {
 m = va_arg(aq, char *);
 if (m == NULL)
+{
 printf("(nil)");
+}
+else
+{
 printf("%s", m);
+}
 if (separator != NULL && i < n - 1)
 {
 printf("%s", separator);
