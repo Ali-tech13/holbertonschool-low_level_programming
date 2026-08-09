@@ -9,8 +9,8 @@
 **/
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-	int len = 0;
-	int count = 0;
+	unsigned int len = 0;
+	unsigned int count = 0;
 	struct dlistint_s *currnet = head;
 	struct dlistint_s *tmp = NULL;
 
@@ -35,4 +35,5 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		currnet = currnet->next;
 		count++;
 	}
+	return (NULL);
 }
