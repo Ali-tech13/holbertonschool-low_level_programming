@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
+* add_dnodeint_end - Function to add node at the last
 *
-*
-*
-*
-*
+* @head: pointer to pointer to node
+* @n: data to store in node;
+* Return: address of the newNode
 **/
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
