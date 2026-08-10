@@ -6,7 +6,6 @@
  * @h: address of the head pointer
  * @idx: index where the new node should be added
  * @n: value for the new node
- *
  * Return: address of the new node, or NULL if it failed
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h,
@@ -19,10 +18,8 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h,
 
 	if (h == NULL)
 		return (NULL);
-
 	if (idx == 0)
 		return (add_dnodeint(h, n));
-
 	tmp = *h;
 	while (tmp != NULL)
 	{
@@ -46,13 +43,10 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h,
 		tmp = tmp->next;
 		count++;
 	}
-
 	newNode->n = n;
 	newNode->next = tmp;
 	newNode->prev = tmp->prev;
-
 	tmp->prev->next = newNode;
 	tmp->prev = newNode;
-
 	return (newNode);
 }
