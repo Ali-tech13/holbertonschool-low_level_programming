@@ -14,8 +14,8 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	struct dlistint_s *tmp;
 	struct dlistint_s *newNode = malloc(sizeof(dlistint_t));
-	int len = 0;
-	int count = 0;
+	unsigned int len = 0;
+	unsigned int count = 0;
 
 	if (newNode == NULL)
 	{
