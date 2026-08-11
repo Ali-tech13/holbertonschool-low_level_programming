@@ -1,5 +1,5 @@
 #include "lists.h"
-#include <stdio.h>
+#include <stdlib.h>
 /**
 * delete_dnodeint_at_index - Function that deletes the node at index (index)
 *
